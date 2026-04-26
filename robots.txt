@@ -1,0 +1,28 @@
+# AcmeJoy Blog — robots.txt
+  User-agent: *
+  Allow: /
+
+  # Allow all major search engines
+  User-agent: Googlebot
+  Allow: /
+
+  User-agent: Bingbot
+  Allow: /
+
+  User-agent: DuckDuckBot
+  Allow: /
+
+  User-agent: YandexBot
+  Allow: /
+
+  # Allow image indexing
+  User-agent: Googlebot-Image
+  Allow: /
+
+  # Disallow common junk paths (none on a static site, but reserved)
+  Disallow: /tmp/
+  Disallow: /*.json$
+
+  # Sitemap
+  Sitemap: https://YOUR-USERNAME.github.io/YOUR-REPO/sitemap.xml
+  
